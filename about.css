@@ -1,0 +1,27 @@
+#about-header {
+  text-align: center;
+}
+
+#about-paragraph {
+  text-align: center;
+}
+
+nav {
+  background-color: gray;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
