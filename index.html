@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ASH Home</title>
-    <link rel="stylesheet" href="home.css" />
+    <link id="themeStylesheet" rel="stylesheet" href="home.css" />
   </head>
   <body>
     <nav>
@@ -25,24 +25,26 @@
         </p>
       </section>
       <div class="button-grid">
-        <div class="item">Frutiger Aero</div>
-        <div class="item">Vaporwave</div>
-        <div class="item">Retro-Futurism</div>
-        <div class="item">Old Internet</div>
-        <div class="item">Rubberhose</div>
-        <div class="item">Global Village Coffeehouse</div>
-        <div class="item">Festival Marketplace</div>
-        <div class="item">Memphis Design</div>
-        <div class="item">8-Bit</div>
+        <button class="item" data-theme="frutiger-aero.css">
+          Frutiger Aero
+        </button>
+        <button class="item">Vaporwave</button>
+        <button class="item">Retro-Futurism</button>
+        <button class="item">Old Internet</button>
+        <button class="item">Rubberhose</button>
+        <button class="item">Global Village Coffeehouse</button>
+        <button class="item">Festival Marketplace</button>
+        <button class="item">Memphis Design</button>
+        <button class="item">8-Bit</button>
       </div>
+
       <div class="clear-theme">
-        <div class="clear-theme-button">Clear Theme</div>
+        <button id="clear-theme-button">Clear Theme</button>
       </div>
     </main>
     <footer>
       <p>&copy; 2025 My Website</p>
     </footer>
     <script src="script.js"></script>
-    <!-- Link to external JavaScript -->
   </body>
 </html>
