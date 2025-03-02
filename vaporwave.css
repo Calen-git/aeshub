@@ -6,7 +6,7 @@
   width: 400px;
   margin: auto;
   padding: 20px;
-  background-color: darkcyan;
+  background-color: purple;
   border-radius: 10px;
   border: 3px solid black;
 }
@@ -17,13 +17,13 @@
   justify-content: center;
   align-items: center;
   height: 100px;
-  background-color: lightgray;
+  background-color: white;
   border-radius: 10px;
-  border: 3px solid white;
+  border: 3px solid black;
 }
 
 .item:hover {
-  background-color: darkgray;
+  background-color: lightgrey;
 }
 
 #home-header {
@@ -41,7 +41,7 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: darkcyan;
+  background-color: gray;
   width: 100px;
   height: 50px;
   margin: auto;
@@ -54,15 +54,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: green;
+  background-color: white;
   border-radius: 10px;
-  border: 3px solid white;
+  border: 3px solid black;
   height: 50px;
   width: 100px;
 }
 
 #clear-theme-button:hover {
-  background-color: lightgreen;
+  background-color: lightgray;
 }
 
 nav {
