@@ -3,27 +3,40 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 15px;
-  width: 400px;
+  max-width: 575px;
+  width: 100%;
   margin: auto;
   padding: 20px;
-  background-color: darkcyan;
-  border-radius: 10px;
+  background: linear-gradient(to bottom, lightgreen, green);
+  border-radius: 50px;
   border: 3px solid black;
+  justify-content: center;
+  align-items: center;
 }
 
 .item {
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background: linear-gradient(to bottom, #00bfff, #0074cc);
+  border-radius: 50px;
+  border: 2px solid #005fa3;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3),
+    inset 0px 2px 4px rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
   height: 100px;
-  background-color: lightgray;
-  border-radius: 10px;
-  border: 3px solid white;
 }
 
 .item:hover {
-  background-color: darkgray;
+  background: linear-gradient(to bottom, #00d4ff, #0088ff);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4),
+    inset 0px 3px 5px rgba(255, 255, 255, 0.6);
 }
 
 #home-header {
@@ -41,28 +54,34 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: darkcyan;
+  background: linear-gradient(to bottom, green, lightgreen);
   width: 100px;
   height: 50px;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 50px;
   border: 3px solid black;
 }
 
 #clear-theme-button {
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
-  border-radius: 10px;
-  border: 3px solid white;
-  height: 50px;
-  width: 100px;
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background: linear-gradient(to bottom, darkred, red);
+  border-radius: 50px;
+  border: 2px solid #c82300;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3),
+    inset 0px 2px 4px rgba(255, 255, 255, 0.5);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
 }
 
 #clear-theme-button:hover {
-  background-color: lightgreen;
+  background: linear-gradient(to bottom, #ff4f29, #ff8267);
 }
 
 nav {
