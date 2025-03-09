@@ -1,38 +1,45 @@
 .button-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 15px;
-  width: 400px;
-  margin: auto;
+  gap: 10px;
   padding: 20px;
-  background-color: purple;
-  border-radius: 10px;
-  border: 3px solid black;
+  background: linear-gradient(to bottom, #222, #444);
+  border-radius: 12px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), 0 5px 15px rgba(0, 0, 0, 0.3);
+  max-width: 575px;
+  width: 100%;
+  margin: auto;
+  outline: 2px solid violet;
 }
 
 .item {
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  background-color: white;
-  border-radius: 10px;
-  border: 3px solid black;
+  display: inline-block;
+  height: 100%;
+  background: linear-gradient(to top, #555, #222);
+  color: rgb(253, 108, 255);
+  font-size: 14px;
+  border: 2px solid rgb(200, 0, 255);
+  border-radius: 6px;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  font-family: "Nova Square", sans-serif;
+  cursor: pointer;
+  box-shadow: 0 4px rgb(200, 0, 255), 0 6px 10px rgba(0, 255, 255, 0.3);
+  transition: all 0.2s;
 }
 
 .item:hover {
-  background-color: lightgrey;
+  background: #111;
+  box-shadow: 0 0 15px rgb(216, 74, 255), 0 0 30px rgba(0, 255, 255, 0.5);
+  transform: translateY(-2px);
 }
 
 #home-header {
-  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
 #home-paragraph {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Nova Square", sans-serif;
   text-align: center;
 }
 
@@ -41,49 +48,83 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: gray;
   width: 100px;
   height: 50px;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 12px;
   border: 3px solid black;
+  background: linear-gradient(to bottom, #222, #444);
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5), 0 5px 15px rgba(0, 0, 0, 0.3);
+  outline: 2px solid violet;
 }
 
 #clear-theme-button {
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
+  height: 100%;
+  background: linear-gradient(to top, #555, #222);
+  color: rgb(253, 108, 255);
+  font-size: 14px;
+  border: 2px solid rgb(200, 0, 255);
+  border-radius: 6px;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 4px rgb(200, 0, 255), 0 6px 10px rgba(0, 255, 255, 0.3);
+  transition: all 0.2s;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  border-radius: 10px;
-  border: 3px solid black;
-  height: 50px;
-  width: 100px;
 }
 
 #clear-theme-button:hover {
-  background-color: lightgray;
+  background: #111;
+  box-shadow: 0 0 15px rgb(216, 74, 255), 0 0 30px rgba(0, 255, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Nova Square", sans-serif;
+  background-image: url(Images/vapor.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 nav {
-  background-color: gray;
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(to bottom, #222, #444);
+  height: 75px;
+  outline: 2px solid violet;
 }
 
 nav ul {
-  list-style: none;
   display: flex;
   gap: 20px;
   justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
 
 nav ul li {
-  display: inline;
+  display: flex;
+  align-items: center;
 }
 
 nav ul li a {
-  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to top, #555, #222);
+  color: rgb(253, 108, 255);
+  font-size: 14px;
+  border: 2px solid rgb(200, 0, 255);
+  border-radius: 6px;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 4px rgb(200, 0, 255), 0 6px 10px rgba(0, 255, 255, 0.3);
+  transition: all 0.2s;
   text-decoration: none;
-  color: white;
 }
 
 nav ul li a:hover {

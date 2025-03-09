@@ -17,7 +17,7 @@
 .item {
   display: inline-block;
   padding: 12px 24px;
-  font-family: monospace;
+  font-family: "Teko", sans-serif;
   font-size: 18px;
   font-weight: bold;
   text-align: center;
@@ -43,15 +43,15 @@
 }
 
 #home-header {
-  font-family: monospace;
+  font-family: "Teko", sans-serif;
   font-weight: bold;
   text-align: center;
   color: black;
 }
 
 #home-paragraph {
-  font-family: monospace;
-  font-weight: bold;
+  font-family: "Teko", sans-serif;
+  font-size: larger;
   text-align: center;
   color: black;
 }
@@ -96,8 +96,13 @@
     inset 0px 3px 5px rgba(255, 255, 255, 0.6);
 }
 
+html,
 body {
-  background-image: url(Images/bliss.png);
+  font-family: "Teko", sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url(Images/aero.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -122,7 +127,7 @@ nav ul li {
 }
 
 nav ul li a {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Teko", sans-serif;
   text-transform: uppercase;
   font-family: monospace;
   font-weight: bold;
